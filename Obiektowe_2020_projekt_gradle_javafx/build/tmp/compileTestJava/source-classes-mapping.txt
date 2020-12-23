@@ -1,0 +1,2 @@
+pl/edu/agh/po/integrity/SampleTest.java
+ pl.edu.agh.po.integrity.SampleTest

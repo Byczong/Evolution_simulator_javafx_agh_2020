@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+
+group 'pl.edu.agh.po'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+javafx {
+    version = "15.0.1"
+    modules = [ 'javafx.controls' ]
+}
+
+mainClassName = 'pl.edu.agh.po.MainFx'
